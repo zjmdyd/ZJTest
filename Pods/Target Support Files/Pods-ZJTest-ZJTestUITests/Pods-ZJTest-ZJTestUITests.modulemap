@@ -1,0 +1,6 @@
+framework module Pods_ZJTest_ZJTestUITests {
+  umbrella header "Pods-ZJTest-ZJTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
