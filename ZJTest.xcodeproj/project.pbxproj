@@ -176,7 +176,6 @@
 				AC72241BAE5F293C9DBF9AB2 /* Pods-ZJTestTests.debug.xcconfig */,
 				CC62308EE42D3C8E3B236E72 /* Pods-ZJTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

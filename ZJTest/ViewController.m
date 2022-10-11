@@ -15,8 +15,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
 }
 
+- (void)test0 {
+
+}
 
 @end
