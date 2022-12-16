@@ -20,6 +20,7 @@
 		652FD9F427EC9C8600F4DD70 /* ZJTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FD9F327EC9C8600F4DD70 /* ZJTestTests.m */; };
 		652FD9FE27EC9C8700F4DD70 /* ZJTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FD9FD27EC9C8700F4DD70 /* ZJTestUITests.m */; };
 		652FDA0027EC9C8700F4DD70 /* ZJTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FD9FF27EC9C8700F4DD70 /* ZJTestUITestsLaunchTests.m */; };
+		6565230E292F557D00EB335A /* cat.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6565230D292F557D00EB335A /* cat.zip */; };
 		6EE6319566CCEB5CC8068D13 /* Pods_ZJTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0726DC8026736C6E51511BD0 /* Pods_ZJTestTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		652FD9F927EC9C8700F4DD70 /* ZJTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		652FD9FD27EC9C8700F4DD70 /* ZJTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTestUITests.m; sourceTree = "<group>"; };
 		652FD9FF27EC9C8700F4DD70 /* ZJTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		6565230D292F557D00EB335A /* cat.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = cat.zip; sourceTree = "<group>"; };
 		78F387C75A120124BA4B1BCC /* Pods-ZJTest-ZJTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJTest-ZJTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ZJTest-ZJTestUITests/Pods-ZJTest-ZJTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F2F720EC2ACF2269A70D2BA /* Pods_ZJTest_ZJTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJTest_ZJTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC72241BAE5F293C9DBF9AB2 /* Pods-ZJTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ZJTestTests/Pods-ZJTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				652FD9E827EC9C8600F4DD70 /* Info.plist */,
 				652FD9E927EC9C8600F4DD70 /* main.m */,
 				652FD9E027EC9C8400F4DD70 /* ZJTest.xcdatamodeld */,
+				6565230D292F557D00EB335A /* cat.zip */,
 			);
 			path = ZJTest;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6565230E292F557D00EB335A /* cat.zip in Resources */,
 				652FD9E727EC9C8600F4DD70 /* LaunchScreen.storyboard in Resources */,
 				652FD9E427EC9C8600F4DD70 /* Assets.xcassets in Resources */,
 				652FD9DF27EC9C8400F4DD70 /* Main.storyboard in Resources */,
@@ -597,7 +601,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4V543SHZ2R;
+				DEVELOPMENT_TEAM = 4435829Y68;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZJTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -626,7 +630,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4V543SHZ2R;
+				DEVELOPMENT_TEAM = 4435829Y68;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZJTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -18,15 +18,39 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - SensorsAnalyticsSDK (4.2.5):
+    - SensorsAnalyticsSDK/Core (= 4.2.5)
+  - SensorsAnalyticsSDK/__Store (4.2.5)
+  - SensorsAnalyticsSDK/AutoTrack (4.2.5):
+    - SensorsAnalyticsSDK/Common
+  - SensorsAnalyticsSDK/Base (4.2.5):
+    - SensorsAnalyticsSDK/__Store
+  - SensorsAnalyticsSDK/Common (4.2.5):
+    - SensorsAnalyticsSDK/Extension
+  - SensorsAnalyticsSDK/Core (4.2.5):
+    - SensorsAnalyticsSDK/Common
+    - SensorsAnalyticsSDK/Visualized
+  - SensorsAnalyticsSDK/Extension (4.2.5):
+    - SensorsAnalyticsSDK/Base
+  - SensorsAnalyticsSDK/Visualized (4.2.5):
+    - SensorsAnalyticsSDK/AutoTrack
+  - SSZipArchive (2.4.3)
+  - ZipArchive (1.4.0)
 
 DEPENDENCIES:
   - AFNetworking
   - DZNEmptyDataSet
   - FMDB
+  - SensorsAnalyticsSDK
+  - SSZipArchive
+  - ZipArchive
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - FMDB
+    - SensorsAnalyticsSDK
+    - SSZipArchive
+    - ZipArchive
   trunk:
     - AFNetworking
     - DZNEmptyDataSet
@@ -35,7 +59,10 @@ SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  SensorsAnalyticsSDK: 007bd33ecc81c55380a49f8f5a2d09041a60ef49
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: 3f71a5eb332d6b48f1d2be5a4cbab4c8533c963a
+PODFILE CHECKSUM: e9c369009eb2ec55e876d6a4ce28267d61235a07
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

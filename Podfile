@@ -12,7 +12,9 @@ target 'ZJTest' do
     pod 'AFNetworking'
     pod 'DZNEmptyDataSet'
     pod 'FMDB'
-
+    pod 'ZipArchive'
+    pod 'SSZipArchive'
+    pod 'SensorsAnalyticsSDK'
   target 'ZJTestTests' do
     inherit! :search_paths
     # Pods for testing
